@@ -91,10 +91,16 @@ header {
 
 .usluge{
 	max-width: 100%;
-	max-height: 35%;
-}
+	display: flex;
+	justify-content: space-between;
+	padding-left: 15%;
+	padding-right: 15%;
+	}
 
 .prvi, .drugi, .treci, .cetvrti, .peti, .sesti {
-	max-width:25%;
-	max-height: 30%;
+	width:25%;
+}
+
+.bgc-white{
+	background-color: white;
 }
