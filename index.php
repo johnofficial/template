@@ -23,12 +23,7 @@
  </li>
 </ul>
 </div>
-
-
-
 </header>
-
-
 <body class="bgc-yellow">
 <div class="container">
 	<div class="text-section">
@@ -38,6 +33,11 @@
 <div class="image-section">
 	<img src="assets/img/ja.png">
 </div>
+</div>
+<div class="usluge bgc-white color-black">
+	<div class="prvi"><p><?php include 'assets/text/randomtext.html' ?> </p></div>
+	<div class="drugi"><p><?php include 'assets/text/randomtext.html' ?> </p></div>
+	<div class="treci"><p><?php include 'assets/text/randomtext.html' ?> </p></div>
 </div>
 <div class="usluge bgc-white color-black">
 	<div class="prvi"><p><?php include 'assets/text/randomtext.html' ?> </p></div>
