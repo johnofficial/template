@@ -2,7 +2,7 @@ main {
 	align-content: center;
 }
 
-nav {
+.navbar {
 	align-items: center;
 	border-right:solid 1px #fff;
 }
@@ -65,16 +65,19 @@ header {
 
 .text-section {
 	max-width: 40%;
-	padding: 0% 3% 5% 3%;
+	padding: 0% 7% 5% 3%;
 }
 
 .image-section {
 	max-width: 40%;
-	padding: -2% 3% 5% 3%;
+	padding: -2% 3% 5% 5%;
+	padding-bottom: 10px;
+	padding-left: 19px;
 }
 
 .image-section img {
 	max-width:50%;
+	border-radius: 50%
 }
 
 .bgc-black {
