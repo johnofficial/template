@@ -1,0 +1,100 @@
+main {
+	align-content: center;
+}
+
+nav {
+	align-items: center;
+	border-right:solid 1px #fff;
+}
+
+.title {
+	text-align: center;
+}
+.description {
+	text-align: center;
+	background-color: grey;
+	padding: 10px;
+}
+
+.bgc-blue {
+ 	background-color: #0984e3;
+}
+.color-white, a.color-white {
+	color: white;
+}
+.btn {
+	padding: 10px 12px;
+	text-decoration: none;
+}
+.bgc-red {
+	background: red;
+}
+
+.bgc-yellow {
+	background-color: #f6b93b;
+}
+
+.logo {
+	color: white;
+	width: 19%;
+	padding-left: 12%;
+}
+
+.nav {
+	align-items: right;
+	margin-right: 150px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container {
+	justify-content: center;
+	display: flex;
+	max-height: 70%;
+
+}
+
+.color-black {
+	color: black;
+}
+
+.text-section {
+	max-width: 40%;
+	padding: 0% 3% 5% 3%;
+}
+
+.image-section {
+	max-width: 40%;
+	padding: -2% 3% 5% 3%;
+}
+
+.image-section img {
+	max-width:50%;
+}
+
+.bgc-black {
+	background-color: black;
+}
+
+.justify-center{
+	justify-content: center;
+}
+
+.display-flex{
+	display: flex;
+}
+
+.usluge{
+	max-width: 100%;
+	max-height: 35%;
+}
+
+.prvi, .drugi, .treci, .cetvrti, .peti, .sesti {
+	max-width:25%;
+	max-height: 30%;
+}
