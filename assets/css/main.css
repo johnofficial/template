@@ -2,7 +2,7 @@ main {
 	align-content: center;
 }
 
-nav {
+.navbar {
 	align-items: center;
 	border-right:solid 1px #fff;
 }
