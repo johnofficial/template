@@ -107,3 +107,11 @@ header {
 .bgc-white{
 	background-color: white;
 }
+
+.logo {
+	max-width: 30%;
+}
+
+.logo img {
+	max-width: 20%;
+}

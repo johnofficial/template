@@ -8,7 +8,7 @@
 <header class="bgc-yellow">
 	<!--  -->
 	<div class="logo color-black">
-		 Marko Jevtic
+		<img src="assets/img/logo.png">
 	</div>
 	<div class="navbar">
 		<ul class="nav">
@@ -46,7 +46,7 @@
 </div>
 <div class="footer bgc-black color-white">
 	<div class="copyright">
-		Copy 2018. Marko Jevtic
+		Copyright &copy 2018. Marko Jevtic
 	</div>
 </div>
 
