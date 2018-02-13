@@ -49,6 +49,14 @@
 	<div class="usluga"><p><?php include 'assets/text/store.html' ?> </p></div>
 </div>
 <div class="footer bgc-black color-white">
+	<div class="keep-in-touch">
+		<?php include 'assets/text/keeptext.html' ?>
+	</div>
+	<div class="contact">
+		<img src="assets/img/gmail.png" class='contactlogo'>
+		<img src="assets/img/ig.png" class='contactlogo'>
+		<img src="assets/img/facebook.png" class='contactlogo'>
+	</div>
 	<div class="copyright">
 		Copyright &copy 2018. Marko Jevtic
 	</div>

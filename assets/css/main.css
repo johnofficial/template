@@ -152,7 +152,37 @@ header {
 	border-radius: 10%;
 }
 /*Footer*/
+.footer {
+	padding-top: 5px;
+}
+.footer h1{
+	text-align: center;
+	color: #f1c40f;
+	font-size: 24px;
+}
+.footer p{
+	text-align: center;
+	color: #8395a7;
+}
+.contact{
+	justify-content: center;
+	display: flex;
 
+}
+.contact img{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
 
-
-
+.copyright{
+	color: #8395a7;
+	text-align: center;
+	padding-top: 15px;
+}
+.contactlogo{
+	transition: 0.3s;
+}
+.contactlogo:hover{
+	transform: scale(1.2);
+}
