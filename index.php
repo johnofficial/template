@@ -25,7 +25,7 @@
 </div>
 </div>
 </header>
-<body class="bgc-red">
+<body class="bgc-yellow">
 <div class="container">
 	<div class="text-section">
 <p><?php include 'assets/text/randomtext.html' ?> 
