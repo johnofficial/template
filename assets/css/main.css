@@ -4,7 +4,17 @@ main {
 
 .navbar {
 	align-items: center;
-	border-right:solid 1px #fff;
+}
+
+.nav-item {
+	transition: .4s;
+	margin: 5px;
+}
+
+.nav-item:hover {
+	background-color: #eccc68;
+    color: #FFC0CB;
+    transform: scale(1.2);
 }
 
 .title {
@@ -27,7 +37,7 @@ main {
 	text-decoration: none;
 }
 .bgc-red {
-	background: red;
+	background: #ff4757;
 }
 
 .bgc-yellow {
@@ -46,16 +56,23 @@ main {
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
+	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.header-wrap {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
 }
 
 .container {
 	justify-content: center;
 	display: flex;
 	max-height: 70%;
+	max-width: 1000px;
 
 }
 
@@ -64,13 +81,13 @@ header {
 }
 
 .text-section {
-	max-width: 40%;
+	max-width: 50%;
 	padding: 0% 7% 5% 3%;
 	font-family: Arial, Geneva, Helvetica, sans-serif;
 }
 
 .image-section {
-	max-width: 40%;
+	max-width: 50%;
 	padding-bottom: 10px;
 	padding-left: 3%;
 	margin-left: -10px;
@@ -80,19 +97,25 @@ header {
 
 .image-section img {
 	max-width:50%;
-	border-radius: 50%
+	border-radius: 50%;
+	transition: .3s;
+}
+
+.image-section img:hover {
+	border-radius: 15%;
+}
+
+.logo img:hover {
+	transform: scale(1.5);
+}
+
+.logo img {
+	max-width: 100%;
+	transition: .4s;
 }
 
 .bgc-black {
 	background-color: black;
-}
-
-.justify-center{
-	justify-content: center;
-}
-
-.display-flex{
-	display: flex;
 }
 
 .usluge{
@@ -117,6 +140,40 @@ header {
 	background-color: white;
 }
 
-.logo img {
+.carousel {
+	justify-content: center;
+	display: flex;
+	max-height: 70%;
+
+}
+
+.slika img{
+	max-width: 40px;
+	justify-content: left;
+
+}
+
+.tekst {
+	max-width: 150px;
+	max-height: 150px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.zajedno {
 	max-width: 100%;
+	display: flex;
+	transition: 0.5s;
+}
+
+.zajedno:hover{
+	transform: scale(1.2);
+}
+
+.zajedno:hover img{
+	opacity: 0.2;
+}
+
+.zajedno img {
+	transition: 0.3s;
 }
