@@ -33,8 +33,10 @@
 </div>
 <div class="image-section">
 	<div class="ja"></div>
-	<!--<img src="assets/img/ja.png">-->
 </div>
+</div>
+<div class="features-text bgc-white">
+	<?php include 'assets/text/feature-text.html' ?>
 </div>
 <div class="usluge bgc-white color-black">
 	<div class="usluga"><p><?php include 'assets/text/bug.html' ?> </p></div>

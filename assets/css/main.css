@@ -99,8 +99,11 @@ header {
 	border-radius: 15%;
 	filter: grayscale(0%);
 }
+.features-text{
+	text-align: center;
+	padding-bottom: 30px;
+}
 .usluge{
-	max-width: 100%;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 15%;
