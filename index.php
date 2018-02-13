@@ -52,6 +52,10 @@
 	<div class="keep-in-touch">
 		<?php include 'assets/text/keeptext.html' ?>
 	</div>
+	<div class="leavemail">
+	<input class="form-control" id="inputdefault" type="text" align="center">
+	<button type="button" class="btn" bgc-yellow>Contact me!</button>
+	</div>
 	<div class="contact">
 		<img src="assets/img/gmail.png" class='contactlogo'>
 		<img src="assets/img/ig.png" class='contactlogo'>

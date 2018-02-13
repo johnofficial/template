@@ -186,3 +186,12 @@ header {
 .contactlogo:hover{
 	transform: scale(1.2);
 }
+
+.leavemail{
+	margin: 10px auto; 
+	width:400px;
+	display: flex;
+}
+.leavemail button{
+	margin-left: 10px;
+}
