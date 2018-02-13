@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
-<header class="bgc-red">
+<header class="bgc-white">
 	<div class="header-wrap">
 	<div class="logo color-black">
 		<img src="assets/img/logo.png">
@@ -32,28 +32,25 @@
 </p>
 </div>
 <div class="image-section">
-	<img src="assets/img/ja.png">
+	<div class="ja"></div>
+	<!--<img src="assets/img/ja.png">-->
 </div>
 </div>
 <div class="usluge bgc-white color-black">
-	<div class="prvi"><p><?php include 'assets/text/bug.html' ?> </p></div>
-	<div class="drugi"><p><?php include 'assets/text/android.html' ?> </p></div>
-	<div class="treci"><p><?php include 'assets/text/suitcase.html' ?> </p></div>
+	<div class="usluga"><p><?php include 'assets/text/bug.html' ?> </p></div>
+	<div class="usluga"><p><?php include 'assets/text/android.html' ?> </p></div>
+	<div class="usluga"><p><?php include 'assets/text/suitcase.html' ?> </p></div>
 </div>
 <div class="usluge bgc-white color-black">
-	<div class="prvi"><p><?php include 'assets/text/motorcycle.html' ?> </p></div>
-	<div class="drugi"><p><?php include 'assets/text/translate.html' ?> </p></div>
-	<div class="treci"><p><?php include 'assets/text/store.html' ?> </p></div>
+	<div class="usluga"><p><?php include 'assets/text/motorcycle.html' ?> </p></div>
+	<div class="usluga"><p><?php include 'assets/text/translate.html' ?> </p></div>
+	<div class="usluga"><p><?php include 'assets/text/store.html' ?> </p></div>
 </div>
 <div class="footer bgc-black color-white">
 	<div class="copyright">
 		Copyright &copy 2018. Marko Jevtic
 	</div>
 </div>
-
-
-
-
 	<script type="text/javascript" src="/assets/js/main.js"></script>
 </body>
 </html>

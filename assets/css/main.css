@@ -1,22 +1,4 @@
-main {
-	align-content: center;
-}
-
-.navbar {
-	align-items: center;
-}
-
-.nav-item {
-	transition: .4s;
-	margin: 5px;
-}
-
-.nav-item:hover {
-	background-color: #eccc68;
-    color: #FFC0CB;
-    transform: scale(1.2);
-}
-
+/*Title description*/
 .title {
 	text-align: center;
 }
@@ -25,99 +7,98 @@ main {
 	background-color: grey;
 	padding: 10px;
 }
-
-.bgc-blue {
- 	background-color: #0984e3;
+main {
+	align-content: center;
 }
-.color-white, a.color-white {
-	color: white;
+/* Header, logo, navbar */
+.navbar {
+	align-items: right;
 }
-.btn {
-	padding: 10px 12px;
-	text-decoration: none;
+.nav-item {
+	transition: .4s;
+	margin: 5px;
 }
-.bgc-red {
-	background: #ff4757;
+.nav-item::last-child{
+	margin: 0;
 }
-
-.bgc-yellow {
-	background-color: #f1c40f;
+.nav-item:hover {
+	background-color: #eccc68;
+    color: #FFC0CB;
+    transform: scale(1.2);
 }
-
-.logo {
-	color: white;
-	max-width: 25%;
-	padding-left: 12%;
-}
-
 .nav {
 	align-items: right;
-	margin-right: 150px;
 }
-
+.logo {
+	color: white;
+	max-width: 15%;
+}
 header {
 	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-
 .header-wrap {
 	max-width: 1000px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
 }
-
-.container {
-	justify-content: center;
-	display: flex;
-	max-height: 70%;
-	max-width: 1000px;
-
-}
-
-.color-black {
-	color: black;
-}
-
-.text-section {
-	max-width: 50%;
-	padding: 0% 7% 5% 3%;
-	font-family: Arial, Geneva, Helvetica, sans-serif;
-}
-
-.image-section {
-	max-width: 50%;
-	padding-bottom: 10px;
-	padding-left: 3%;
-	margin-left: -10px;
-	margin-bottom: 10px;
-	margin-top: -25px;
-}
-
-.image-section img {
-	max-width:50%;
-	border-radius: 50%;
-	transition: .3s;
-}
-
-.image-section img:hover {
-	border-radius: 15%;
-}
-
 .logo img:hover {
 	transform: scale(1.5);
 }
-
 .logo img {
 	max-width: 100%;
 	transition: .4s;
 }
-
+/* Colors */
+.bgc-blue {
+ 	background-color: #0984e3;
+}
+.color-white {
+	color: white;
+}
+.bgc-red {
+	background: #ff4757;
+}
+.bgc-yellow {
+	background-color: #f1c40f;
+}
+.color-black {
+	color: black;
+}
+.bgc-white{
+	background-color: white;
+}
 .bgc-black {
 	background-color: black;
 }
-
+/*Body*/
+.container {
+	justify-content: space-between;
+	display: flex;
+	max-width: 1000px;
+	padding: 0;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.text-section {
+	max-width: 50%;
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+}
+.image-section {
+	max-width: 50%;
+}
+.image-section img {
+	max-width:50%;
+	border-radius: 20%;
+	transition: .3s;
+	filter: grayscale(100%);
+}
+.image-section img:hover {
+	border-radius: 15%;
+	filter: grayscale(0%);
+}
 .usluge{
 	max-width: 100%;
 	display: flex;
@@ -126,54 +107,49 @@ header {
 	padding-right: 15%;
 	padding-bottom: 10px;
 	font-family: Arial, Geneva, Helvetica, sans-serif;
-	}
-
-.prvi, .drugi, .treci {
-	width:25%;
-	padding-top: 15px;
 }
-
-.cetvrti, .peti, .sesti{
-	width:25%;
+.usluga {
+	width:33%;
+	margin-top: 15px;
 }
-.bgc-white{
-	background-color: white;
-}
-
-.carousel {
-	justify-content: center;
-	display: flex;
-	max-height: 70%;
-
-}
-
 .slika img{
 	max-width: 40px;
 	justify-content: left;
-
 }
-
 .tekst {
-	max-width: 150px;
+	max-width: 200px;
 	max-height: 150px;
 	font-size: 12px;
-	text-align: center;
+	text-align: left;
 }
-
 .zajedno {
 	max-width: 100%;
 	display: flex;
 	transition: 0.5s;
 }
-
 .zajedno:hover{
 	transform: scale(1.2);
 }
-
 .zajedno:hover img{
 	opacity: 0.2;
 }
-
 .zajedno img {
 	transition: 0.3s;
+	margin-right: 5px;
 }
+.ja{
+	width: 250px;
+	height: 250px;
+	background-image: url("../img/ja.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15%;
+}
+.ja:hover{
+	border-radius: 10%;
+}
+/*Footer*/
+
+
+
+
