@@ -103,10 +103,15 @@ header {
 }
 .features-text{
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 .featurestext{
 	opacity: 0.87;
+}
+.features{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
 }
 .usluge{
 	display: flex;
@@ -118,7 +123,7 @@ header {
 }
 .usluga {
 	width:33%;
-	margin-top: 15px;
+
 }
 .slika img{
 	max-width: 40px;
@@ -201,4 +206,38 @@ header {
 }
 .leavemail button{
 	margin-left: 10px;
+}
+
+.skocko{
+	transition: 0.3s;
+}
+
+.skocko:hover {
+transform: translateY(-2px);
+}
+
+.btn.bgc-yellow:hover{
+color: #f1c40f;
+background-color: black;
+border: 1px solid #f1c40f;
+}
+
+.footer-links{
+	display: flex;
+	max-width: 500px;
+	justify-content: space-between;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.links-item{
+	font-size: 10px;
+	color: white;
+	list-style-type: none;
+	max-width: 25%;
+}
+.links-link{
+	color: #8395a7;
+}
+.links
 }
