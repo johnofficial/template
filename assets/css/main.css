@@ -1,3 +1,4 @@
+
 /*Title description*/
 .title {
 	text-align: center;
@@ -239,5 +240,43 @@ border: 1px solid #f1c40f;
 .links-link{
 	color: #8395a7;
 }
-.links
+
+@media only screen and (max-width: 768px){
+	.container {
+	justify-content: center;
+	max-width: 768px;
+	padding: 0;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.header-wrap{
+	display: inline;
+	flex-direction: column;
+	max-width: 768px;
+}
+.leavemail{
+max-width: 200px;
+}
+.btn{
+	max-width: 100px;
+}
+.tekst {
+	max-width: 200px;
+	max-height: 500px;
+	font-size: 12px;
+	text-align: left;
+}
+.slika img{
+	max-width: 20px;
+	justify-content: left;
+}
+
+.ja{
+	max-width: 150px;
+	max-height: 250px;
+	background-image: url("../img/ja.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15%;
+}
 }
