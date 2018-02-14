@@ -45,15 +45,15 @@
 	<?php include 'assets/text/feature-text.html' ?>
     </div>
 </div>
-<div class="usluge bgc-white color-black" data-entrance="from-bottom">
-	<div class="usluga"><p><?php include 'assets/text/bug.html' ?> </p></div>
-	<div class="usluga"><p><?php include 'assets/text/android.html' ?> </p></div>
-	<div class="usluga"><p><?php include 'assets/text/suitcase.html' ?> </p></div>
+<div class="usluge bgc-white color-black">
+	<div class="usluga" data-entrance="from-bottom"><p><?php include 'assets/text/bug.html' ?> </p></div>
+	<div class="usluga"  data-entrance="from-bottom"><p><?php include 'assets/text/android.html' ?> </p></div>
+	<div class="usluga" data-entrance="from-bottom" data-entrance="from-bottom"><p><?php include 'assets/text/suitcase.html' ?> </p></div>
 </div>
-<div class="usluge bgc-white color-black" data-entrance="from-bottom">
-	<div class="usluga"><p><?php include 'assets/text/motorcycle.html' ?> </p></div>
-	<div class="usluga"><p><?php include 'assets/text/translate.html' ?> </p></div>
-	<div class="usluga"><p><?php include 'assets/text/store.html' ?> </p></div>
+<div class="usluge bgc-white color-black">
+	<div class="usluga" data-entrance="from-bottom"><p><?php include 'assets/text/motorcycle.html' ?> </p></div>
+	<div class="usluga" data-entrance="from-bottom"><p><?php include 'assets/text/translate.html' ?> </p></div>
+	<div class="usluga" data-entrance="from-bottom"><p><?php include 'assets/text/store.html' ?> </p></div>
 </div>
 </div>
 <div class="footer bgc-black color-white">
