@@ -36,7 +36,9 @@
 </div>
 </div>
 <div class="features-text bgc-white">
+	<div class="featurestext">
 	<?php include 'assets/text/feature-text.html' ?>
+    </div>
 </div>
 <div class="usluge bgc-white color-black">
 	<div class="usluga"><p><?php include 'assets/text/bug.html' ?> </p></div>
