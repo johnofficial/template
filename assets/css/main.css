@@ -13,10 +13,12 @@ main {
 /* Header, logo, navbar */
 .navbar {
 	align-items: right;
+
 }
 .nav-item {
 	transition: .4s;
 	margin: 5px;
+	color: black;
 }
 .nav-item::last-child{
 	margin: 0;
@@ -96,7 +98,7 @@ header {
 	filter: grayscale(100%);
 }
 .image-section img:hover {
-	border-radius: 15%;
+	border-radius: 15%;s
 	filter: grayscale(0%);
 }
 .features-text{
@@ -181,7 +183,7 @@ header {
 	padding-top: 15px;
 }
 .contactlogo{
-	transition: 0.3s;
+	transition: .3s;
 }
 .contactlogo:hover{
 	transform: scale(1.2);

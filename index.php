@@ -13,13 +13,13 @@
 	<div class="navbar">
 		<ul class="nav">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Welcome</a>
+    <a class="nav-link active color-black" href="#">Welcome</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">About</a>
+    <a class="nav-link color-black" href="#">About</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Contact</a>
+    <a class="nav-link color-black" href="#">Contact</a>
  </li>
 </ul>
 </div>
