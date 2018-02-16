@@ -14,7 +14,6 @@ main {
 /* Header, logo, navbar */
 .navbar {
 	align-items: right;
-
 }
 .nav-item {
 	transition: .4s;
@@ -24,10 +23,13 @@ main {
 .nav-item::last-child{
 	margin: 0;
 }
+@media (min-width: 768px)
+{
 .nav-item:hover {
 	background-color: #eccc68;
     color: #FFC0CB;
     transform: scale(1.2);
+}
 }
 .nav {
 	align-items: right;
@@ -240,7 +242,9 @@ border: 1px solid #f1c40f;
 .links-link{
 	color: #8395a7;
 }
-
+.navbar-mobile{
+	display: none;
+}
 @media only screen and (max-width: 768px){
 	.container {
 	display: flex;
@@ -249,6 +253,7 @@ border: 1px solid #f1c40f;
 	margin-top: 80px;
 	margin-bottom: 80px;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .header-wrap{
 	display: flex;
@@ -297,20 +302,51 @@ max-width: 200px;
 }
 .usluga {
 	width:100%;
-
 }
 .text-section {
 	max-width: 100%;
 	padding-right: 5%;
 	padding-left: 5%;
 	font-family: Arial, Geneva, Helvetica, sans-serif;
-
+	box-sizing: border-box;
 }
 .image-section {
 	max-width: 100%;
 }
 .navbar{
-	display: flex;
-	flex-wrap: wrap;
+	display: none;
+}
+.navbar-mobile{
+	display: block;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+.navbar-mobile button{
+margin-right: 5%;
+float: right;
+margin-top: -10%;
+}
+.navbar-nav{
+	padding-right: 5%;
+	padding-left: 5%;
 }
 }
